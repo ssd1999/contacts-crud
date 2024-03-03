@@ -1,0 +1,34 @@
+.content {
+  padding-top: 10px;
+}
+.row {
+  display: flex;
+  
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.action {
+  padding: 0px 25px 20px;ß
+  button {
+    flex: 2;
+  }
+}
+/* Updated CSS to display name tags on separate lines */
+
+.row {
+  display: flex;
+  
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.mat-form-field {
+  width: 80%;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+
+
+
